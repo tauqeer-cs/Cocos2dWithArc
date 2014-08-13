@@ -10,8 +10,8 @@
 //#import "Settings.h"
 //#import "GameLayer.h"
 //#import "GameState.h"
-//#import "AppDelegate.h"
-//#import "LeaderBoard.h"
+#import "AppDelegate.h"
+#import "LeaderBoard.h"
 //#import "NumberSprite.h"
 #import "Help.h"
 #import "AboutUs.h"
@@ -19,7 +19,7 @@
 
 @implementation Home
 
-//AppDelegate *appDelegate;
+AppController *appDelegate;
 //GameLayer *obj_GameLayer;
 
 +(CCScene *)scene{
@@ -37,7 +37,7 @@
         
         //Add Background
         
-        //appDelegate = [[UIApplication sharedApplication] delegate];
+        appDelegate = [[UIApplication sharedApplication] delegate];
         CCSprite *background;
         
         if([[CCDirector sharedDirector] winSize].height == 568){
@@ -82,8 +82,9 @@
         
         CCMenu *menu;
         
-        //if (appDelegate.LastSavedGame.LastSavedGameExists==YES) {
-        if (1 == 1){
+        //if (appDelegate.LastSavedGame.LastSavedGameExists==YES)
+        if (1 == 0)
+        {
             NewGame.position=ccp(10, 210);
             ContinueGame.position=ccp(10, 155);
             
@@ -145,9 +146,8 @@
 
 -(void)LeaderBoard:(CCMenuItem *)sender{
     
-    /*
     [[CCDirector sharedDirector]replaceScene:[LeaderBoard scene]];
-     */
+     
     
 }
 
