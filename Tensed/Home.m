@@ -13,8 +13,8 @@
 //#import "AppDelegate.h"
 //#import "LeaderBoard.h"
 //#import "NumberSprite.h"
-//#import "Help.h"
-//#import "AboutUs.h"
+#import "Help.h"
+#import "AboutUs.h"
 
 
 @implementation Home
@@ -153,18 +153,17 @@
 
 -(void)About:(CCMenuItem *)sender
 {
-    /*
+    
     [[CCDirector sharedDirector] replaceScene:[AboutUs scene]];
-     */
+     
    
 }
 
 -(void)Help:(CCMenuItem *)sender{
-    /*
     
      [[CCDirector sharedDirector] replaceScene:[Help scene]];
      
-     */
+     
     
 }
 @end
