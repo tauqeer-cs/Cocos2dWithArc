@@ -38,10 +38,20 @@
         //Add Background
         
         //appDelegate = [[UIApplication sharedApplication] delegate];
+        CCSprite *background;
         
-        CCSprite *background=[CCSprite spriteWithFile:@"menu-page.png"];
-        background.position=ccp(160, 240);
-        [self addChild:background];        
+        if([[CCDirector sharedDirector] winSize].height == 568){
+            background=[CCSprite spriteWithFile:@"menu-page5.png"];
+        }
+        else{
+        background=[CCSprite spriteWithFile:@"menu-page.png"];//-568h
+        }
+            
+
+     
+        background.position=ccp([[CCDirector sharedDirector] winSize].width/2.0, [[CCDirector sharedDirector] winSize].height/2.0);
+        
+        [self addChild:background];
         CGSize winsize=[[CCDirector sharedDirector]winSize];
 #ifdef VERSION_TENSERFREE
         Version=[CCLabelTTF labelWithString:@"Ver:2.3F" fontName:@"Marker Felt" fontSize:20];

@@ -1163,6 +1163,7 @@
 		47EA647A199B81400057D7E2 /* splash-screen-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 47EA61CD199B81400057D7E2 /* splash-screen-hd.png */; };
 		47EA647B199B81400057D7E2 /* splash-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 47EA61CF199B81400057D7E2 /* splash-screen.png */; };
 		47EA647D199B84830057D7E2 /* test-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 47EA647C199B84830057D7E2 /* test-hd.png */; };
+		47EA647F199B880B0057D7E2 /* menu-page5-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 47EA647E199B880B0057D7E2 /* menu-page5-hd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2492,6 +2493,7 @@
 		47EA61CD199B81400057D7E2 /* splash-screen-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-screen-hd.png"; sourceTree = "<group>"; };
 		47EA61CF199B81400057D7E2 /* splash-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-screen.png"; sourceTree = "<group>"; };
 		47EA647C199B84830057D7E2 /* test-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test-hd.png"; sourceTree = "<group>"; };
+		47EA647E199B880B0057D7E2 /* menu-page5-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-page5-hd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -4542,6 +4544,7 @@
 		47EA6189199B813F0057D7E2 /* @2x */ = {
 			isa = PBXGroup;
 			children = (
+				47EA647E199B880B0057D7E2 /* menu-page5-hd.png */,
 				47EA618A199B813F0057D7E2 /* about-deselect-hd.png */,
 				47EA618B199B813F0057D7E2 /* about-select-hd.png */,
 				47EA618C199B813F0057D7E2 /* continue-game-deselect-hd.png */,
@@ -5208,6 +5211,7 @@
 				47EA623F199B81400057D7E2 /* 3-animation-29.png in Resources */,
 				47EA6267199B81400057D7E2 /* 5-animation-10.png in Resources */,
 				47EA646D199B81400057D7E2 /* save-deselet-hd.png in Resources */,
+				47EA647F199B880B0057D7E2 /* menu-page5-hd.png in Resources */,
 				47EA63CE199B81400057D7E2 /* 8-animation-1.png in Resources */,
 				47EA631E199B81400057D7E2 /* 2-animation-13.png in Resources */,
 				47EA6452199B81400057D7E2 /* continue-game-select.png in Resources */,
